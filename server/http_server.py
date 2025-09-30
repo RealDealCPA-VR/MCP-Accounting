@@ -184,9 +184,17 @@ app.add_middleware(
 
 if __name__ == "__main__":
     # Run the HTTP server
+    # Use PORT environment variable if set (for deployment platforms like Smithery)
+    import os
+    port = int(os.environ.get("PORT", 8080))
+    
+    print(f"🚀 Starting MCP Accounting Server on port {port}")
+    print(f"📡 Health check: http://0.0.0.0:{port}/health")
+    print(f"🔧 MCP endpoint: http://0.0.0.0:{port}/mcp")
+    
     uvicorn.run(
         app,
         host="0.0.0.0",
-        port=8080,
+        port=port,
         log_level="info"
     )
