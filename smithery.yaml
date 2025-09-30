@@ -4,3 +4,19 @@ build:
   dockerBuildPath: .
 startCommand:
   type: http
+  configSchema:
+    type: object
+    properties:
+      OPENAI_API_KEY:
+        type: string
+        title: "OpenAI API Key"
+        description: "Your OpenAI API key or 'local' for local LLM"
+        default: "local"
+      OPENAI_API_BASE_URL:
+        type: string
+        title: "OpenAI API Base URL"
+        description: "Base URL for OpenAI-compatible API"
+        default: "https://vrllm.ngrok.app/v1"
+  exampleConfig:
+    OPENAI_API_KEY: "local"
+    OPENAI_API_BASE_URL: "https://vrllm.ngrok.app/v1"
