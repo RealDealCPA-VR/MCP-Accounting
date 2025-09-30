@@ -22,5 +22,8 @@ RUN mkdir -p server/data/client_profiles \
 # Set environment variables
 ENV PYTHONPATH=/app
 
-# Run the MCP server
-CMD ["python", "server/main.py"]
+# Expose port for HTTP server
+EXPOSE 8080
+
+# Run the HTTP wrapper server
+CMD ["python", "server/http_server.py"]
