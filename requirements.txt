@@ -1,0 +1,44 @@
+# Accounting Practice MCP Server Requirements
+
+# Core MCP Framework
+mcp>=1.0.0
+
+# Database
+sqlite3  # Built into Python
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Date/Time Handling
+python-dateutil>=2.8.0
+
+# JSON Processing (built into Python)
+# json
+
+# Async Support (built into Python 3.11+)
+# asyncio
+
+# Optional: Enhanced PDF Processing (if needed)
+# PyPDF2>=3.0.0
+# pdfplumber>=0.9.0
+
+# Optional: Advanced Excel Processing
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# Optional: OCR Capabilities (if implementing document scanning)
+# pytesseract>=0.3.10
+# Pillow>=10.0.0
+
+# Optional: Email Integration (if implementing automated client communication)
+# smtplib  # Built into Python
+# email  # Built into Python
+
+# Optional: Web Scraping (if needed for data sources)
+# requests>=2.31.0
+# beautifulsoup4>=4.12.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0

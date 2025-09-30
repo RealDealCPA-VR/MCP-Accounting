@@ -1,0 +1,252 @@
+{
+  "AL": {
+    "state_rate": 0.04,
+    "avg_local": 0.051,
+    "combined_avg": 0.091
+  },
+  "AK": {
+    "state_rate": 0.0,
+    "avg_local": 0.018,
+    "combined_avg": 0.018
+  },
+  "AZ": {
+    "state_rate": 0.056,
+    "avg_local": 0.027,
+    "combined_avg": 0.083
+  },
+  "AR": {
+    "state_rate": 0.065,
+    "avg_local": 0.029,
+    "combined_avg": 0.094
+  },
+  "CA": {
+    "state_rate": 0.0725,
+    "avg_local": 0.0275,
+    "combined_avg": 0.1
+  },
+  "CO": {
+    "state_rate": 0.029,
+    "avg_local": 0.048,
+    "combined_avg": 0.077
+  },
+  "CT": {
+    "state_rate": 0.0635,
+    "avg_local": 0.0,
+    "combined_avg": 0.0635
+  },
+  "DE": {
+    "state_rate": 0.0,
+    "avg_local": 0.0,
+    "combined_avg": 0.0
+  },
+  "FL": {
+    "state_rate": 0.06,
+    "avg_local": 0.012,
+    "combined_avg": 0.072
+  },
+  "GA": {
+    "state_rate": 0.04,
+    "avg_local": 0.033,
+    "combined_avg": 0.073
+  },
+  "HI": {
+    "state_rate": 0.04,
+    "avg_local": 0.005,
+    "combined_avg": 0.045
+  },
+  "ID": {
+    "state_rate": 0.06,
+    "avg_local": 0.003,
+    "combined_avg": 0.063
+  },
+  "IL": {
+    "state_rate": 0.0625,
+    "avg_local": 0.0264,
+    "combined_avg": 0.0889
+  },
+  "IN": {
+    "state_rate": 0.07,
+    "avg_local": 0.0,
+    "combined_avg": 0.07
+  },
+  "IA": {
+    "state_rate": 0.06,
+    "avg_local": 0.008,
+    "combined_avg": 0.068
+  },
+  "KS": {
+    "state_rate": 0.065,
+    "avg_local": 0.021,
+    "combined_avg": 0.086
+  },
+  "KY": {
+    "state_rate": 0.06,
+    "avg_local": 0.0,
+    "combined_avg": 0.06
+  },
+  "LA": {
+    "state_rate": 0.0445,
+    "avg_local": 0.051,
+    "combined_avg": 0.0955
+  },
+  "ME": {
+    "state_rate": 0.055,
+    "avg_local": 0.0,
+    "combined_avg": 0.055
+  },
+  "MD": {
+    "state_rate": 0.06,
+    "avg_local": 0.0,
+    "combined_avg": 0.06
+  },
+  "MA": {
+    "state_rate": 0.0625,
+    "avg_local": 0.0,
+    "combined_avg": 0.0625
+  },
+  "MI": {
+    "state_rate": 0.06,
+    "avg_local": 0.0,
+    "combined_avg": 0.06
+  },
+  "MN": {
+    "state_rate": 0.06875,
+    "avg_local": 0.005,
+    "combined_avg": 0.07375
+  },
+  "MS": {
+    "state_rate": 0.07,
+    "avg_local": 0.001,
+    "combined_avg": 0.071
+  },
+  "MO": {
+    "state_rate": 0.04225,
+    "avg_local": 0.0395,
+    "combined_avg": 0.08175
+  },
+  "MT": {
+    "state_rate": 0.0,
+    "avg_local": 0.0,
+    "combined_avg": 0.0
+  },
+  "NE": {
+    "state_rate": 0.055,
+    "avg_local": 0.014,
+    "combined_avg": 0.069
+  },
+  "NV": {
+    "state_rate": 0.0685,
+    "avg_local": 0.013,
+    "combined_avg": 0.0815
+  },
+  "NH": {
+    "state_rate": 0.0,
+    "avg_local": 0.0,
+    "combined_avg": 0.0
+  },
+  "NJ": {
+    "state_rate": 0.06625,
+    "avg_local": 0.0,
+    "combined_avg": 0.06625
+  },
+  "NM": {
+    "state_rate": 0.05125,
+    "avg_local": 0.026,
+    "combined_avg": 0.07725
+  },
+  "NY": {
+    "state_rate": 0.04,
+    "avg_local": 0.048,
+    "combined_avg": 0.088
+  },
+  "NC": {
+    "state_rate": 0.0475,
+    "avg_local": 0.022,
+    "combined_avg": 0.0695
+  },
+  "ND": {
+    "state_rate": 0.05,
+    "avg_local": 0.018,
+    "combined_avg": 0.068
+  },
+  "OH": {
+    "state_rate": 0.0575,
+    "avg_local": 0.014,
+    "combined_avg": 0.0715
+  },
+  "OK": {
+    "state_rate": 0.045,
+    "avg_local": 0.044,
+    "combined_avg": 0.089
+  },
+  "OR": {
+    "state_rate": 0.0,
+    "avg_local": 0.0,
+    "combined_avg": 0.0
+  },
+  "PA": {
+    "state_rate": 0.06,
+    "avg_local": 0.003,
+    "combined_avg": 0.063
+  },
+  "RI": {
+    "state_rate": 0.07,
+    "avg_local": 0.0,
+    "combined_avg": 0.07
+  },
+  "SC": {
+    "state_rate": 0.06,
+    "avg_local": 0.015,
+    "combined_avg": 0.075
+  },
+  "SD": {
+    "state_rate": 0.045,
+    "avg_local": 0.019,
+    "combined_avg": 0.064
+  },
+  "TN": {
+    "state_rate": 0.07,
+    "avg_local": 0.025,
+    "combined_avg": 0.095
+  },
+  "TX": {
+    "state_rate": 0.0625,
+    "avg_local": 0.0195,
+    "combined_avg": 0.082
+  },
+  "UT": {
+    "state_rate": 0.0485,
+    "avg_local": 0.014,
+    "combined_avg": 0.0625
+  },
+  "VT": {
+    "state_rate": 0.06,
+    "avg_local": 0.001,
+    "combined_avg": 0.061
+  },
+  "VA": {
+    "state_rate": 0.053,
+    "avg_local": 0.005,
+    "combined_avg": 0.058
+  },
+  "WA": {
+    "state_rate": 0.065,
+    "avg_local": 0.028,
+    "combined_avg": 0.093
+  },
+  "WV": {
+    "state_rate": 0.06,
+    "avg_local": 0.007,
+    "combined_avg": 0.067
+  },
+  "WI": {
+    "state_rate": 0.05,
+    "avg_local": 0.004,
+    "combined_avg": 0.054
+  },
+  "WY": {
+    "state_rate": 0.04,
+    "avg_local": 0.015,
+    "combined_avg": 0.055
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "patterns": [
+    {
+      "pattern": "(?i)amazon|amzn",
+      "category": "Office Supplies",
+      "subcategory": "General"
+    },
+    {
+      "pattern": "(?i)gas|fuel|shell|exxon|bp",
+      "category": "Vehicle Expenses",
+      "subcategory": "Fuel"
+    },
+    {
+      "pattern": "(?i)office depot|staples|best buy",
+      "category": "Office Supplies",
+      "subcategory": "Equipment"
+    },
+    {
+      "pattern": "(?i)restaurant|cafe|food|dining",
+      "category": "Meals & Entertainment",
+      "subcategory": "Business Meals"
+    },
+    {
+      "pattern": "(?i)hotel|motel|lodging|airbnb",
+      "category": "Travel",
+      "subcategory": "Lodging"
+    },
+    {
+      "pattern": "(?i)airline|flight|airport",
+      "category": "Travel",
+      "subcategory": "Airfare"
+    },
+    {
+      "pattern": "(?i)internet|phone|verizon|att|comcast",
+      "category": "Utilities",
+      "subcategory": "Communications"
+    },
+    {
+      "pattern": "(?i)electric|power|gas company|water",
+      "category": "Utilities",
+      "subcategory": "Basic Utilities"
+    },
+    {
+      "pattern": "(?i)insurance",
+      "category": "Insurance",
+      "subcategory": "General"
+    },
+    {
+      "pattern": "(?i)bank fee|service charge",
+      "category": "Bank Charges",
+      "subcategory": "Fees"
+    },
+    {
+      "pattern": "(?i)payroll|salary|wages",
+      "category": "Payroll",
+      "subcategory": "Wages"
+    },
+    {
+      "pattern": "(?i)rent|lease",
+      "category": "Rent",
+      "subcategory": "Office Rent"
+    },
+    {
+      "pattern": "(?i)legal|attorney|law",
+      "category": "Professional Services",
+      "subcategory": "Legal"
+    },
+    {
+      "pattern": "(?i)accounting|bookkeeping|cpa",
+      "category": "Professional Services",
+      "subcategory": "Accounting"
+    },
+    {
+      "pattern": "(?i)marketing|advertising|google ads",
+      "category": "Marketing",
+      "subcategory": "Advertising"
+    },
+    {
+      "pattern": "(?i)software|subscription|saas",
+      "category": "Software",
+      "subcategory": "Subscriptions"
+    }
+  ],
+  "amount_rules": [
+    {
+      "min_amount": 5000,
+      "category": "Equipment",
+      "subcategory": "Major Equipment"
+    },
+    {
+      "max_amount": 25,
+      "category": "Office Supplies",
+      "subcategory": "Miscellaneous"
+    }
+  ]
+}
