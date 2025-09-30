@@ -8,13 +8,14 @@ This MCP server is configured for easy deployment on Smithery with the included 
 
 - Smithery account with deployment permissions
 - Repository access to this codebase
+- Docker (for local testing)
 
 ### Deployment Steps
 
 1. **Verify Configuration**
    ```bash
    # Check that all required files are present
-   ls -la smithery.yaml requirements.txt server/main.py
+   ls -la Dockerfile smithery.yaml requirements.txt server/main.py
    ```
 
 2. **Deploy to Smithery**
@@ -30,11 +31,22 @@ This MCP server is configured for easy deployment on Smithery with the included 
 
 ## 📋 Configuration Details
 
+### Dockerfile Configuration
+
+The Dockerfile provides:
+
+- **Base Image**: Python 3.11 slim for optimal size
+- **Security**: Non-root user execution
+- **Dependencies**: System packages and Python libraries
+- **Health Check**: Built-in container health monitoring
+- **Environment**: Proper Python path and MCP configuration
+
 ### smithery.yaml Configuration
 
 The deployment configuration includes:
 
-- **Runtime**: Python 3.11 with MCP server protocol
+- **Build Type**: Dockerfile-based build
+- **Runtime**: MCP server protocol
 - **Resources**: 0.5 CPU, 1Gi memory, 2Gi storage
 - **Health Checks**: Enabled with 30s timeout
 - **Dependencies**: All required Python packages

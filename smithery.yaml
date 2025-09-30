@@ -4,10 +4,8 @@ version: "1.0.0"
 
 # Build configuration
 build:
-  type: python
-  python_version: "3.11"
-  requirements_file: "requirements.txt"
-  entry_point: "server/main.py"
+  type: dockerfile
+  dockerfile: "Dockerfile"
   
 # Runtime configuration
 runtime:
