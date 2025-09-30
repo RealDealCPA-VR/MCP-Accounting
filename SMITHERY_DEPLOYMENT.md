@@ -36,21 +36,19 @@ This MCP server is configured for easy deployment on Smithery with the included 
 The Dockerfile provides:
 
 - **Base Image**: Python 3.11 slim for optimal size
-- **Security**: Non-root user execution
-- **Dependencies**: System packages and Python libraries
-- **Health Check**: Built-in container health monitoring
-- **Environment**: Proper Python path and MCP configuration
+- **Dependencies**: System packages (gcc, g++) and Python libraries
+- **Environment**: Proper Python path configuration
+- **Directories**: Creates necessary data directories
+- **Command**: Runs the MCP server via stdio
 
 ### smithery.yaml Configuration
 
 The deployment configuration includes:
 
-- **Build Type**: Dockerfile-based build
-- **Runtime**: MCP server protocol
-- **Resources**: 0.5 CPU, 1Gi memory, 2Gi storage
-- **Health Checks**: Enabled with 30s timeout
-- **Dependencies**: All required Python packages
-- **Tools**: 10 MCP tools for accounting automation
+- **Runtime**: Container-based execution
+- **Build**: Uses Dockerfile for containerization
+- **Start Command**: stdio mode for MCP protocol
+- **Build Path**: Root directory (.)
 
 ### Available MCP Tools
 
