@@ -1,3 +1,6 @@
 runtime: container
 build:
   dockerfile: Dockerfile
+  dockerBuildPath: .
+startCommand:
+  type: http
