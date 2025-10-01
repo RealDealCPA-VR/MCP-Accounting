@@ -7,7 +7,8 @@ import requests
 import json
 
 # Server URL (change to your Smithery deployment URL when deployed)
-SERVER_URL = "http://localhost:8080/mcp"
+SERVER_URL = "https://server.smithery.ai/@RealDealCPA-VR/mcp-accounting/mcp"
+# If testing locally, use: http://localhost:8080/mcp
 
 def test_initialize():
     """Test initialize method"""
