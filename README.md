@@ -1,5 +1,7 @@
 # 🏢 Accounting Practice MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@RealDealCPA-VR/mcp-accounting)](https://smithery.ai/server/@RealDealCPA-VR/mcp-accounting)
+
 A comprehensive Model Context Protocol (MCP) server designed specifically for accounting practices. This custom MCP server automates bookkeeping, tax planning, payroll processing, sales tax compliance, and client management workflows.
 
 ## 🚀 Features
@@ -46,6 +48,14 @@ A comprehensive Model Context Protocol (MCP) server designed specifically for ac
 - **Document Automation**: Intelligent document classification and processing
 
 ## 🛠️ Installation & Setup
+
+### Installing via Smithery
+
+To install mcp-accounting automatically via [Smithery](https://smithery.ai/server/@RealDealCPA-VR/mcp-accounting):
+
+```bash
+npx -y @smithery/cli install @RealDealCPA-VR/mcp-accounting
+```
 
 ### Prerequisites
 - Python 3.11 or higher
